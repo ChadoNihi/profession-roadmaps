@@ -1,0 +1,135 @@
+[
+  {
+    "profession": "Welfare biologist",
+    "path": [
+      {
+        "level": "Intro",
+        "prevStep": null,
+        "subjects": [
+          {
+            "title": "Biology I",
+            "descr": "",
+            "certificates": [{}],
+            "availableTests": [{}],
+            "topics": [
+              {
+                "title": "Evolution I",
+                "resources": [{}]
+              },
+              {
+                "title": "Food chains",
+                "resources": [{}]
+              },
+              {
+                "title": "Biological Sentience I",
+                "resources": [{}]
+              },
+              {
+                "title": "Biological Sentience I",
+                "resources": [{}]
+              },
+            ]
+          },
+          {
+            "title": "Neuroscience I",
+            "descr": "",
+            "certificates": [{}],
+            "availableTests": [{}],
+            "topics": [
+              {
+                "title": "Brain Anatomy I",
+                "resources": [{}]
+              },
+              {
+                "title": "Brain Physiology I",
+                "resources": [{}]
+              },
+              {
+                "title": "Neurons I",
+                "resources": [{}]
+              }
+            ]
+          },
+          {
+            "title": "Inorganic chemistry I",
+            "descr": "",
+            "certificates": [{}],
+            "availableTests": [{}]
+          },
+          {
+            "title": "Organic chemistry I",
+            "descr": "",
+            "certificates": [{}],
+            "availableTests": [{}]
+          },
+        ],
+      },
+      {
+        "level": "preBachelor",
+        "prevStep": "Intro",
+        "subjects": [
+          {
+            "title": "Biology II",
+            "descr": "",
+            "certificates": [{}],
+            "availableTests": [{}],
+            "topics": [
+              {
+                "title": "Macro evolution",
+                "resources": [{}]
+              },
+              {
+                "title": "Ecosystems",
+                "resources": [{}]
+              },
+              {
+                "title": "Genetics I",
+                "resources": [{}]
+              },
+              {
+                "title": "Biological Sentience II",
+                "resources": [{}]
+              },
+            ]
+          },
+          {
+            "title": "Neuroscience I",
+            "descr": "",
+            "certificates": [{}],
+            "availableTests": [{}],
+            "topics": [
+              {
+                "title": "Brain Anatomy II",
+                "resources": [{}]
+              },
+              {
+                "title": "Brain Physiology II",
+                "resources": [{}]
+              },
+              {
+                "title": "Neurons II",
+                "resources": [{}]
+              },
+              {
+                "title": "Neurochemistry",
+                "resources": [{}]
+              }
+            ]
+          }
+        ],
+      },
+      {
+        "level": "Lab assistant",
+        "prevStep": "preBachelor",
+        "subjects": [
+        ],
+      },
+      {
+        "level": "Research assistant",
+        "prevStep": "preBachelor",
+        "subjects": [
+        ],
+      }
+    ]
+  }
+]
