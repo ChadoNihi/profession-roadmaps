@@ -1,0 +1,2 @@
+- career advise at (80000 Hours)[https://80000hours.org/]
+- a roadmap (example)[https://github.com/kamranahmedse/developer-roadmap]
