@@ -10,7 +10,7 @@ const distAbsPath = path.resolve(__dirname, 'dist');
 module.exports = function(env = {}) {
   return {
     entry: {
-      indexRoadmaps: `./${sourcePath}/js/hyperapp/main.js`
+      index_roadmaps: `./${sourcePath}/js/main.js`
     },
     output: {
       filename: 'js/[name].bundle.js',
