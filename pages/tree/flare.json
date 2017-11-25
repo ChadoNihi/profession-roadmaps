@@ -1,0 +1,76 @@
+{
+    "name": "Welfare biologist",
+    "children": [{
+        "name": "1. Intro",
+        "children": [{
+            "name": "Biology I",
+            "children": [{
+                "name": "Evolution I",
+                "size": 3812
+            }, {
+                "name": "Food chains",
+                "size": 6714
+            }, {
+                "name": "Biological Sentience I",
+                "size": 743
+            }]
+        }, {
+            "name": "Neuroscience I",
+            "children": [{
+                "name": "Brain Anatomy I",
+                "size": 3812
+            }, {
+                "name": "Brain Physiology I",
+                "size": 6714
+            }, {
+                "name": "Neurons I",
+                "size": 743
+            }]
+        }, {
+            "name": "Inorganic chemistry I",
+            "size": 6714
+        }, {
+            "name": "Organic chemistry I",
+            "size": 743
+        }]
+    }, {
+        "name": "2. Pre-Bachelor",
+        "children": [{
+            "name": "Biology II",
+            "children": [{
+                "name": "Macro evolution",
+                "size": 2042
+            }, {
+                "name": "Ecosystems",
+                "size": 2042
+            }, {
+                "name": "Genetics I",
+                "size": 2042
+            }, {
+                "name": "Biological Sentience II",
+                "size": 2042
+            }]
+        }, {
+            "name": "Neuroscience I",
+            "children": [{
+                "name": "Brain Anatomy II",
+                "size": 2042
+            }, {
+                "name": "Brain Physiology II",
+                "size": 2042
+            }, {
+                "name": "Neurons II",
+                "size": 2042
+            }, {
+                "name": "Neurochemistry",
+                "size": 2042
+            }]
+        }]
+    }, {
+        "name": "3. Lab assistant",
+        "children": []
+    }, {
+        "name": "4. Research assistant",
+        "children": []
+    }]
+}
