@@ -1,4 +1,4 @@
-$bg-color: #bdced2;
+$bg-color: #e7eff3;
 
 body {
   background: $bg-color;
@@ -10,4 +10,8 @@ nav.navbar {
 
 .main-menu {
   min-height: 70vh;
+}
+
+.roadmap-tile:not(:last-child) {
+  margin-right: 1em !important;
 }

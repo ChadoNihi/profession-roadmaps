@@ -60,7 +60,7 @@ export default ({state, actions}, childElemets)=> {
       <div class="container">
         <div class="content has-text-centered">
           <p>
-            <span class='has-text-weight-bold'>Utilitronium team</span> for <span class='has-text-weight-bold'>Junction 2017</span>. Made with <a href='https://bulma.io/'>Bulma</a> & <a href='https://hyperapp.js.org'>Hyperapp</a>.
+            <span class='has-text-weight-bold'>utilitronium</span> team for <span class='has-text-weight-bold'>Junction 2017</span>. Made with <a href='https://bulma.io/'>Bulma</a> & <a href='https://hyperapp.js.org'>Hyperapp</a>.
           </p>
         </div>
       </div>
