@@ -1,0 +1,73 @@
+
+html, body {
+    height: 100%;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.left, .right {
+	width: 50%;
+    height: 100%;
+    min-height: 100%; /* For IE */
+    float: left;
+    position: relative;
+}
+
+.left {
+    background-color: #FFD166;
+}
+
+.right {
+    background-color: #06D6A0;
+}
+
+.left div, .right div {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	margin: -8% 0 0 0;
+    width: 100%;
+}
+
+.left div {
+	text-align: left;
+	padding-left: 10%;
+}
+
+.right div {
+	text-align: right;
+	padding-right: 10%;
+}
+
+h1, h2 {
+	color: #434343 !important;
+}
+
+.title {
+	margin-bottom: 35px !important;
+	font-size: 65px;
+}
+
+.subtitle {
+	margin: 5px;
+	font-size: 25px;
+}
+
+img {
+	max-width: 100%;
+    height: auto;
+}
+
+.left img {
+	position: absolute;
+	top: 50%;
+    right: 0;
+    margin: -357px 0 0 0;
+}
+
+.right img {
+	position: absolute;
+	top: 50%;
+	bottom: 50%;
+	left: 0;
+	margin: -357px 0 0 0;
+}
