@@ -48,7 +48,6 @@ h1, h2 {
 }
 
 .subtitle {
-	margin: 5px;
 	font-size: 25px;
 }
 
@@ -71,3 +70,10 @@ img {
 	left: 0;
 	margin: -357px 0 0 0;
 }
+
+/*footer {
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	margin-left: -275px;
+}*/
