@@ -33,6 +33,8 @@ export default ({state, actions}, childElemets)=> {
           <ul class="menu-list">
             <li><a>Progress Overview</a></li>
             <li><a>Started Roadmaps</a></li>
+            <li><a>Commitments</a></li>
+            <li><a>Accomplishments</a></li>
           </ul>
           <p class="menu-label">
             Community
