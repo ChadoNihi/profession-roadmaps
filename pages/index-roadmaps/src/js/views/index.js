@@ -8,6 +8,36 @@ export const view = (state, actions) => {
   return (
     <AppLayout state={state} actions={actions}>
       {/* TODO: implement routing or use the official router (for the latter first see https://github.com/hyperapp/router/issues/25) */}
+      <nav class="level">
+        <div class="level-left">
+          <div class="level-item">
+            <p class="subtitle is-5">
+              <strong>{state.roadmaps.length}</strong> roadmaps found
+            </p>
+          </div>
+          <div class="level-item">
+            <div class="field has-addons">
+              <p class="control">
+                <input class="input" type="text" placeholder="Find a post" />
+              </p>
+              <p class="control">
+                <button class="button">
+                  Search
+                </button>
+              </p>
+            </div>
+          </div>
+        </div>
+
+<div class="level-right">
+  <p class="level-item"><strong>All</strong></p>
+  <p class="level-item"><a>Published</a></p>
+  <p class="level-item"><a>Drafts</a></p>
+  <p class="level-item"><a>Deleted</a></p>
+  <p class="level-item"><a class="button is-success">New</a></p>
+</div>
+</nav>
+
         {(new Array(numRows)).fill(0).map((_, i)=> {
           return (
             <div class='tile is-ancestor'>
@@ -16,13 +46,13 @@ export const view = (state, actions) => {
                   return (
                     <div class={`tile is-child is-${Math.floor(12/numCells)} roadmap-tile`}>
                       <div class="card">
-                        <div class="card-image">
+                        <a class="card-image" href='javascript:;'>
                           <figure class="image is-4by3">
                             <img src={prof.bgSrc} alt={`Hero image for ${prof.title}`} />
                           </figure>
-                        </div>
+                        </a>
                         <div class="card-content">
-                          <p class="subtitle">{prof.title}</p>
+                          <a class="subtitle" href='javascript:;'>{prof.title}</a>
                         </div>
                       </div>
                     </div>
