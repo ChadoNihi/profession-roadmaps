@@ -45,13 +45,13 @@ export const view = (state, actions) => {
                 return (
                   <div class={`tile is-child is-${Math.floor(12/numCells)} roadmap-tile`}>
                     <div class="card">
-                      <a class="card-image" href='javascript:;'>
+                      <a class="card-image" href={prof.href || 'javascript:;'}>
                         <figure class="image is-4by3">
                           <img src={prof.bgSrc} alt={`Hero image for ${prof.title}`} />
                         </figure>
                       </a>
                       <div class="card-content">
-                        <a class="subtitle" href='javascript:;'>{prof.title}</a>
+                        <a class="subtitle" href={prof.href || 'javascript:;'}>{prof.title}</a>
                       </div>
                     </div>
                   </div>

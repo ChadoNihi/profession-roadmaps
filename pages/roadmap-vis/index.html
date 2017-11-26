@@ -17,11 +17,27 @@
 <script type="text/javascript">
     // create an array with nodes
     var nodes = new vis.DataSet([
-        {id: 1, label: 'Intro'},
-        {id: 2, label: 'Pre-bachelor'},
-        {id: 3, label: 'Bachelor'},
-        {id: 4, label: 'Lab assistant'},
-        {id: 5, label: 'Research assistant'}
+        {id: 1, label: 'Intro', subjects: [
+          {title: 'Some subject', descr: '', topics: [{}, {}, {}, {}]}, {title: 'Some subject', descr: '', topics: [{}, {}, {}, {}]}, {title: 'Some subject', descr: '', topics: [{}, {}, {}, {}]}
+        ]},
+        {id: 2, label: 'Pre-bachelor', subjects: [
+          {title: 'Some subject', descr: '', topics: [{}, {}, {}, {}]}, {title: 'Some subject', descr: '', topics: [{}, {}, {}, {}]}, {title: 'Some subject', descr: '', topics: [{}, {}, {}, {}]}
+        ]},
+        {id: 3, label: 'Bachelor', subjects: [
+          {title: 'Some subject', descr: '', topics: [{}, {}, {}, {}]}, {title: 'Some subject', descr: '', topics: [{}, {}, {}, {}]}, {title: 'Some subject', descr: '', topics: [{}, {}, {}, {}]}
+        ]},
+        {id: 4, label: 'Lab assistant', subjects: [
+          {title: 'Some subject', descr: '', topics: [{}, {}, {}, {}]}, {title: 'Some subject', descr: '', topics: [{}, {}, {}, {}]}, {title: 'Some subject', descr: '', topics: [{}, {}, {}, {}]}
+        ]},
+        {id: 5, label: 'Research assistant', subjects: [
+          {title: 'Some subject', descr: '', topics: [{}, {}, {}, {}]}, {title: 'Some subject', descr: '', topics: [{}, {}, {}, {}]}, {title: 'Some subject', descr: '', topics: [{}, {}, {}, {}]}
+        ]},
+        {id: 6, label: 'Pre-master', subjects: [
+          {title: 'Some subject', descr: '', topics: [{}, {}, {}, {}]}, {title: 'Some subject', descr: '', topics: [{}, {}, {}, {}]}, {title: 'Some subject', descr: '', topics: [{}, {}, {}, {}]}
+        ]},
+        {id: 7, label: 'Master', subjects: [
+          {title: 'Some subject', descr: '', topics: [{}, {}, {}, {}]}, {title: 'Some subject', descr: '', topics: [{}, {}, {}, {}]}, {title: 'Some subject', descr: '', topics: [{}, {}, {}, {}]}
+        ]},
     ]);
 
     // create an array with edges
@@ -29,7 +45,10 @@
         {from: 1, to: 2},
         {from: 2, to: 3},
         {from: 3, to: 4},
-        {from: 3, to: 5}
+        {from: 3, to: 5},
+        {from: 5, to: 7},
+        {from: 6, to: 7},
+        {from: 4, to: 7}
     ]);
 
     // create a network
@@ -51,7 +70,7 @@
         alert('Zoom out!')
       }
       else {
-        alert(`Zoom in on node '${nodes.get(nodesClicked[0]).label}'`);
+        alert(`Zoom in on node '${nodes.get(nodesClicked[0]).label}' with data '${nodes.get(nodesClicked[0]).data}'`);
       }
     });
 </script>

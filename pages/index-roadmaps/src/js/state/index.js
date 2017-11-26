@@ -14,6 +14,7 @@ export const state = {
     {
       title: 'Welfare biologist',
       bgSrc: 'https://source.unsplash.com/TENCro-02gQ/320x240',
+      href: '../roadmap-vis/index.html',
       tags: []
     },
     {
