@@ -5,8 +5,8 @@
 
     <style type="text/css">
         #roadmap {
-            width: 600px;
-            height: 400px;
+            width: 1200px;
+            height: 800px;
             border: 1px solid lightgray;
         }
     </style>
@@ -18,25 +18,172 @@
     // create an array with nodes
     var nodes = new vis.DataSet([
         {id: 1, label: 'Intro', subjects: [
-          {title: 'Some subject', descr: '', topics: [{}, {}, {}, {}]}, {title: 'Some subject', descr: '', topics: [{}, {}, {}, {}]}, {title: 'Some subject', descr: '', topics: [{}, {}, {}, {}]}
+          {
+            title: 'Some subject',
+            descr: '',
+            topics: [
+              {title: 'Some topic'}, {title: 'Some topic'}, {title: 'Some topic'}, {title: 'Some topic'}
+            ]
+          },
+          {
+            title: 'Some subject',
+            descr: '',
+            topics: [
+              {title: 'Some topic'}, {title: 'Some topic'}, {title: 'Some topic'}, {title: 'Some topic'}
+            ]
+          },
+          {
+            title: 'Some subject',
+            descr: '',
+            topics: [
+              {title: 'Some topic'}, {title: 'Some topic'}, {title: 'Some topic'}, {title: 'Some topic'}
+            ]
+              }
+
         ]},
         {id: 2, label: 'Pre-bachelor', subjects: [
-          {title: 'Some subject', descr: '', topics: [{}, {}, {}, {}]}, {title: 'Some subject', descr: '', topics: [{}, {}, {}, {}]}, {title: 'Some subject', descr: '', topics: [{}, {}, {}, {}]}
+          {
+            title: 'Some subject',
+            descr: '',
+            topics: [
+              {title: 'Some topic'}, {title: 'Some topic'}, {title: 'Some topic'}, {title: 'Some topic'}
+            ]
+          },
+          {
+              title: 'Some subject',
+              descr: '',
+              topics: [
+                {title: 'Some topic'}, {title: 'Some topic'}, {title: 'Some topic'}, {title: 'Some topic'}
+              ]
+            },
+            {
+                title: 'Some subject',
+                descr: '',
+                topics: [
+                  {title: 'Some topic'}, {title: 'Some topic'}, {title: 'Some topic'}, {title: 'Some topic'}
+                ]
+              }
+
         ]},
         {id: 3, label: 'Bachelor', subjects: [
-          {title: 'Some subject', descr: '', topics: [{}, {}, {}, {}]}, {title: 'Some subject', descr: '', topics: [{}, {}, {}, {}]}, {title: 'Some subject', descr: '', topics: [{}, {}, {}, {}]}
+          {
+            title: 'Some subject',
+            descr: '',
+            topics: [
+              {title: 'Some topic'}, {title: 'Some topic'}, {title: 'Some topic'}, {title: 'Some topic'}
+            ]
+          },
+          {
+              title: 'Some subject',
+              descr: '',
+              topics: [
+                {title: 'Some topic'}, {title: 'Some topic'}, {title: 'Some topic'}, {title: 'Some topic'}
+              ]
+            },
+            {
+                title: 'Some subject',
+                descr: '',
+                topics: [
+                  {title: 'Some topic'}, {title: 'Some topic'}, {title: 'Some topic'}, {title: 'Some topic'}
+                ]
+              }
+
         ]},
         {id: 4, label: 'Lab assistant', subjects: [
-          {title: 'Some subject', descr: '', topics: [{}, {}, {}, {}]}, {title: 'Some subject', descr: '', topics: [{}, {}, {}, {}]}, {title: 'Some subject', descr: '', topics: [{}, {}, {}, {}]}
+          {
+            title: 'Some subject',
+            descr: '',
+            topics: [
+              {title: 'Some topic'}, {title: 'Some topic'}, {title: 'Some topic'}, {title: 'Some topic'}
+            ]
+          },
+          {
+              title: 'Some subject',
+              descr: '',
+              topics: [
+                {title: 'Some topic'}, {title: 'Some topic'}, {title: 'Some topic'}, {title: 'Some topic'}
+              ]
+            },
+            {
+                title: 'Some subject',
+                descr: '',
+                topics: [
+                  {title: 'Some topic'}, {title: 'Some topic'}, {title: 'Some topic'}, {title: 'Some topic'}
+                ]
+              }
+
         ]},
         {id: 5, label: 'Research assistant', subjects: [
-          {title: 'Some subject', descr: '', topics: [{}, {}, {}, {}]}, {title: 'Some subject', descr: '', topics: [{}, {}, {}, {}]}, {title: 'Some subject', descr: '', topics: [{}, {}, {}, {}]}
+          {
+            title: 'Some subject',
+            descr: '',
+            topics: [
+              {title: 'Some topic'}, {title: 'Some topic'}, {title: 'Some topic'}, {title: 'Some topic'}
+            ]
+          },
+          {
+              title: 'Some subject',
+              descr: '',
+              topics: [
+                {title: 'Some topic'}, {title: 'Some topic'}, {title: 'Some topic'}, {title: 'Some topic'}
+              ]
+            },
+            {
+                title: 'Some subject',
+                descr: '',
+                topics: [
+                  {title: 'Some topic'}, {title: 'Some topic'}, {title: 'Some topic'}, {title: 'Some topic'}
+                ]
+              }
+
         ]},
         {id: 6, label: 'Pre-master', subjects: [
-          {title: 'Some subject', descr: '', topics: [{}, {}, {}, {}]}, {title: 'Some subject', descr: '', topics: [{}, {}, {}, {}]}, {title: 'Some subject', descr: '', topics: [{}, {}, {}, {}]}
+          {
+            title: 'Some subject',
+            descr: '',
+            topics: [
+              {title: 'Some topic'}, {title: 'Some topic'}, {title: 'Some topic'}, {title: 'Some topic'}
+            ]
+          },
+          {
+              title: 'Some subject',
+              descr: '',
+              topics: [
+                {title: 'Some topic'}, {title: 'Some topic'}, {title: 'Some topic'}, {title: 'Some topic'}
+              ]
+            },
+            {
+                title: 'Some subject',
+                descr: '',
+                topics: [
+                  {title: 'Some topic'}, {title: 'Some topic'}, {title: 'Some topic'}, {title: 'Some topic'}
+                ]
+              }
+
         ]},
         {id: 7, label: 'Master', subjects: [
-          {title: 'Some subject', descr: '', topics: [{}, {}, {}, {}]}, {title: 'Some subject', descr: '', topics: [{}, {}, {}, {}]}, {title: 'Some subject', descr: '', topics: [{}, {}, {}, {}]}
+          {
+            title: 'Some subject',
+            descr: '',
+            topics: [
+              {title: 'Some topic'}, {title: 'Some topic'}, {title: 'Some topic'}, {title: 'Some topic'}
+            ]
+          },
+          {
+              title: 'Some subject',
+              descr: '',
+              topics: [
+                {title: 'Some topic'}, {title: 'Some topic'}, {title: 'Some topic'}, {title: 'Some topic'}
+              ]
+            },
+            {
+                title: 'Some subject',
+                descr: '',
+                topics: [
+                  {title: 'Some topic'}, {title: 'Some topic'}, {title: 'Some topic'}, {title: 'Some topic'}
+                ]
+              }
+
         ]},
     ]);
 
@@ -59,18 +206,32 @@
         nodes: nodes,
         edges: edges
     };
-    var options = {};
+    var options = {
+      layout: {
+        hierarchical: {
+          enabled: true
+      }}
+    };
 
     // initialize your network!
     var network = new vis.Network(container, data, options);
 
     network.on('click', e=> {
       const nodesClicked = e.nodes;
-      if (!nodesClicked) {
-        alert('Zoom out!')
+      if (nodesClicked.length) {
+        network.focus(nodesClicked[0], {
+          scale: 3,
+          animation: {
+            duration: 700
+          }
+        });
       }
       else {
-        alert(`Zoom in on node '${nodes.get(nodesClicked[0]).label}' with data '${nodes.get(nodesClicked[0]).data}'`);
+        network.fit({
+          animation: {
+            duration: 200
+          }
+        });
       }
     });
 </script>
